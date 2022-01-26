@@ -1,8 +1,7 @@
 import {
     Container,
     Heading,
-    SimpleGrid,
-    Divider
+    SimpleGrid
 } from "@chakra-ui/react"
 import Section from "../components/section"
 import { ProjectGridItem } from "../components/grid-item"
@@ -23,7 +22,7 @@ const Projects = () => {
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
                         <ProjectGridItem id="yelp-camp" title="YelpCamp" thumbnail={thumbYelpCamp}>
-                            A Yelp like website for campgrounds with user's authentication and authorization implemented
+                            A Yelp like website for campgrounds with user&apos;s authentication and authorization implemented
                         </ProjectGridItem>
                     </Section>
                     <Section>

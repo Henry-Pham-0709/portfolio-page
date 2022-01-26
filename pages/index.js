@@ -5,7 +5,6 @@ import {
     Heading,
     Image,
     Link,
-    SimpleGrid,
     List,
     ListItem,
     Icon,
@@ -17,11 +16,9 @@ import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from "../components/bio"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import Layout from "../components/layouts/article"
-import { GridItem } from "../components/grid-item"
 import {
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoDiscord,
     IoLogoFacebook,
     IoLogoLinkedin
 } from "react-icons/io5"
@@ -67,7 +64,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title" mb={6}>
                         Projects
                     </Heading>
-                    <Paragraph>I'm a full-time student studying Software Development at SAIT. I have a great passion for technology
+                    <Paragraph>I&apos;m a full-time student studying Software Development at SAIT. I have a great passion for technology
                         and a good amount of knowledge of Website Development. Outside of school, I usually take my time to learn about
                         new technology or freelancing with my website develop skills. One of my website is called {' '}
                         <NextLink href="/projects/yelp-camp">
