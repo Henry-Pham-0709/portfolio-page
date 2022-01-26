@@ -14,6 +14,7 @@ import NextLink from "next/link"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from "../components/bio"
+import { TechSection, TechList, TechTopic } from "../components/tech"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import Layout from "../components/layouts/article"
 import {
@@ -95,6 +96,12 @@ const Page = () => {
                         Born in Ho Chi Minh City, Vietnam.
                     </BioSection>
                     <BioSection>
+                        <BioYear>
+                            2019
+                        </BioYear>
+                        Completed Machine Learning for A.I Program.
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2021</BioYear>
                         Completed the Highschool&apos;s Program in Le Hong Phong Highschool for the Gifted
                     </BioSection>
@@ -111,6 +118,76 @@ const Page = () => {
 
                 <Section delay={0.3}>
                     <Heading as="h3" variant="section-title" mb={6}>
+                        Technical Skills
+                    </Heading>
+                    <TechSection>
+                        <TechTopic>Programming Language</TechTopic>
+                        <TechList>Python</TechList>
+                        <TechList>JavaScript</TechList>
+                        <TechList>Java</TechList>
+                        <TechList>C++</TechList>
+                    </TechSection>
+                    <TechSection>
+                        <TechTopic>Frameworks, Libraries &amp; Package</TechTopic>
+                        <TechList>Bootstrap</TechList>
+                        <TechList>Node.js</TechList>
+                        <TechList>Express.js</TechList>
+                        <TechList>EJS</TechList>
+                        <TechList>React.js</TechList>
+                        <TechList>Chakra UI</TechList>
+                        <TechList>Framer Motion</TechList>
+                        <TechList>Next.js</TechList>
+                        <TechList>Three.js</TechList>
+                        <TechList>Passport</TechList>
+                        <TechList>Emotion</TechList>
+                        <TechList>MongoDB/Mongoose.js</TechList>
+                        <TechList>Numpy</TechList>
+                        <TechList>Tkinter</TechList>
+                        <TechList>Keras</TechList>
+                        <TechList>TensorFlow</TechList>
+                        <TechList>Pandas</TechList>
+                        <TechList>Matplotlib</TechList>
+                    </TechSection>
+                    <TechSection>
+                        <TechTopic>Tools</TechTopic>
+                        <TechList>Git/Github</TechList>
+                        <TechList>Linux Terminal</TechList>
+                        <TechList>Vercel/Heroku</TechList>
+                        <TechList>Postman</TechList>
+                        <TechList>Cloudinary</TechList>
+                        <TechList>MapBox</TechList>
+                        <TechList>Atlas (MongoDB)</TechList>
+                        <TechList>Web APIs</TechList>
+                        <TechList>RESTful APIs</TechList>
+                        <TechList>Blender</TechList>
+                        <TechList>Lucidchart</TechList>
+                        <TechList>VS Code</TechList>
+                        <TechList>Pycharm</TechList>
+                        <TechList>Google Colab</TechList>
+                        <TechList>Jupyter</TechList>
+                    </TechSection>
+                </Section>
+
+                <Section delay={0.4}>
+                    <Heading as="h3" variant="section-title" mb={6}>
+                        Social Activity
+                    </Heading>
+                    <BioSection>
+                        <BioYear>2019 - 2020</BioYear>
+                        Member of Community Organization - Game Host Department
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2020</BioYear>
+                        Member of the Red Phoenix Campaign
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2021</BioYear>
+                        Third place in Capture the Flag (CTF) Hacking Competition
+                    </BioSection>
+                </Section>
+
+                <Section delay={0.4}>
+                    <Heading as="h3" variant="section-title" mb={6}>
                         I ♥
                     </Heading>
                     <Paragraph>
@@ -118,7 +195,7 @@ const Page = () => {
                     </Paragraph>
                 </Section>
 
-                <Section delay={0.3}>
+                <Section delay={0.5}>
                     <Heading as="h3" variant="section-title" mb={6}>
                         Social Media
                     </Heading>
